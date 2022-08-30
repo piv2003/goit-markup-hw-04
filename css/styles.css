@@ -10,6 +10,7 @@
   --text-lightgray-color: #757575;
   --background-our-team: #f5f4fa;
   --secondary-accent-color: #188CE8;
+  --portfolio-indents: #eeeeee;
   --font-logo: "Raleway", sans-serif;
   --font-main: "Roboto", sans-serif;
 }
@@ -169,7 +170,12 @@ img {
   letter-spacing: 0.06em;
   border: 1px solid transparent;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
   cursor: pointer;
+}
+
+.effective-solutions-buttons:hover {
+  background-color: var(--secondary-accent-color);
 }
 
 /*****section - features start*****/
@@ -338,7 +344,7 @@ img {
   font-size: 16px;
   line-height: calc(26/16);
   letter-spacing: 0.03em;
-  background-color: #f5f4fa;
+  background-color: var(--background-our-team);
   text-align: center;
   border: none;
 }
@@ -399,8 +405,7 @@ img {
 
 .portfolio-indents {
   padding: 20px 24px;
-  border-top: none;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
+  border-right: 1px solid var(--portfolio-indents);
+  border-bottom: 1px solid var(--portfolio-indents);
+  border-left: 1px solid var(--portfolio-indents);
 }
