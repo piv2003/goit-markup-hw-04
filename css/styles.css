@@ -11,6 +11,7 @@
   --background-our-team: #f5f4fa;
   --secondary-accent-color: #188CE8;
   --portfolio-indents: #eeeeee;
+  --header-border-color: #ececec;
   --font-logo: "Raleway", sans-serif;
   --font-main: "Roboto", sans-serif;
 }
@@ -96,7 +97,7 @@ img {
 }
 
 .header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--header-border-color);
 }
 
 .header-logo-link,
