@@ -145,6 +145,11 @@ img {
   color: var(--text-lightgray-color);
 }
 
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /*************** MAIN start *******************/
 /*****section - effective-solutions start*****/
 .section-effective-solutions {
