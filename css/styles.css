@@ -10,6 +10,7 @@
   --text-lightgray-color: #757575;
   --background-our-team: #f5f4fa;
   --secondary-accent-color: #188CE8;
+  --social-icons-grey: #AFB1B8;
   --portfolio-indents: #eeeeee;
   --header-border-color: #ececec;
   --font-logo: "Raleway", sans-serif;
@@ -326,6 +327,37 @@ img {
 .our-team-indents {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+/*------ icons social-media ------*/
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.social-media-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-media-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: var(--social-icons-grey);
+  border-radius: 50%;
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
+}
+
+.social-media-icon {
+  fill: currentColor;
 }
 
 /*****FOOTER start*****/
