@@ -218,6 +218,16 @@ img {
   overflow: hidden;
 }
 
+.features-icon-group {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--background-our-team);
+  padding: 25px 100px;
+}
+
 .features-item-title {
   margin-bottom: 10px;
   font-weight: 700;
