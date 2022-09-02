@@ -257,7 +257,8 @@ img {
 
 /*****section - our-business start*****/
 .our-business-title,
-.our-team-title {
+.our-team-title,
+.section-clients-title {
   margin: 0;
   padding: 0;
   margin-bottom: 50px;
@@ -357,6 +358,37 @@ img {
 }
 
 .social-media-icon {
+  fill: currentColor;
+}
+
+/*--- section ---clients */
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  color: var(--social-icons-grey);
+  border: 1px solid var(--social-icons-grey);
+  border-radius: 4px;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  color: var(--basic-blue);
+  border-color: var(--basic-blue);
+}
+
+.clients-logo {
   fill: currentColor;
 }
 
