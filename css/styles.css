@@ -509,11 +509,11 @@ img {
 .portfolio-buttons:focus {
   background-color: var(--basic-blue);
   color: var(--basic-white);
+  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
 }
 
 .portfolio-buttons:hover {
   cursor: pointer;
-  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
 }
 
 .portfolio-item-name,
