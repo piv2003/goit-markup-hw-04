@@ -4,6 +4,7 @@
   --basic-blue: #2196f3;
   --basic-white: #fff;
   --basic-gray: rgba(255, 255, 255, 0.6);
+  --join-link-background: rgba(255, 255, 255, 0.1);
   --text-grey-footer: #acacb0;
   --text-black-full: #000;
   --text-black-color: #212121;
@@ -143,6 +144,8 @@ img {
 }
 
 .header-contacts-item-link {
+  display: flex;
+  align-items: center;
   color: var(--text-lightgray-color);
 }
 
@@ -459,7 +462,7 @@ img {
   width: 44px;
   height: 44px;
   color: var(--basic-white);
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--join-link-background);
   border-radius: 50%;
 }
 
